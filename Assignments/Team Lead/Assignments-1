@@ -22,5 +22,5 @@ tone(12,100,2000);
 Serial.print("Above 60 c Temperature...");
 }
 else{
-noTone(12);
+noTone(5);
 }
