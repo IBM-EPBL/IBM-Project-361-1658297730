@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sign.css" rel="stylesheet">
+    <link href="css/reg.css" rel="stylesheet">
+    </head>
+    <body style="background-color: #aee8c7;">
+
+        
+        
+<div class="container" style="margin-top: 100px; margin-left: 400px;height: 500px;    background: #ffffff;max-width: 850px;"> 
+  <div class="title">Registration Form</div>
+  <form action="Regcheck.jsp" method="post">
+    <div class="user-details" style="margin-left: 30px;">
+      <div class="input-box" style="margin-top: 18px;">
+        <span class="details"> Name</span>
+        <input type="text" name="name" id="" style="width: 350px; margin-left: 109px;"  required />
+      </div>
+          
+      <div class="input-box" style="margin-top:8px;">
+        <span class="details">Email-Id</span>
+        <input type="text" name="email" id="" style="width: 350px; margin-left: 90px;"  required />
+      </div>
+      <div class="input-box" style="margin-top:8px;">
+        <span class="details">Phone Number</span>
+        <input type="text" name="phone" id="" style="width: 350px;margin-left: 50px;" maxlength="10" minlength="10" required />
+      </div>
+        <div class="input-box"style="margin-top:8px;">
+        <span class="details">DOB</span>
+        <input type="date" name="dob" id="" style="width: 350px;margin-left: 112px;"  required />
+      </div>
+          <div class="input-box"  style="    margin-left: -235px;margin-top:8px;">
+              <span class="details" style="    margin-left: 235px;"> Gender</span>
+ <select   name="gender" id="" style="margin-left: 100px;width: 350px;background-color: white;" required>
+                     <option value="">Select</option>
+           
+     <option value="Male">Male</option>
+     <option value="Female">Female</option>
+                
+            </select>     
+   </div>
+       
+        <div class="input-box"style="margin-top:8px;">
+        <span class="details"> Street</span>
+        <input type="text" name="street" id="" style="width: 350px;margin-left: 110px;"  required />
+      </div>
+      
+      
+      
+       <div class="input-box"style="margin-top:8px;">
+        <span class="details"> Sub District</span>
+        <input type="text" name="subdis" id="" style="width: 350px;margin-left: 70px;"  />
+      </div>
+      
+       
+         <div class="input-box"style="margin-top:8px;">
+        <span class="details"> Password</span>
+        <input type="password" name="pass" id="" style="width: 350px;margin-left: 82px;"  required />
+      </div>
+         
+    
+    </div>
+       <div class="button" style="margin-top: 10px;">
+         <a>  <input type="submit" value="Register"  style="width: 200px;
+    background: ;
+    margin-left: 30px;"/></a>
+    </div>
+      <p style="margin-top: 81px; margin-left: 385px;">
+          Already Registered ! <a href="login.jsp">
+              Login Here
+          </a>
+      </p>
+      <p style="margin-top: 18px;
+    margin-left: 385px;">
+          <a href="/iot">
+              Home
+          </a>
+      </p>
+  </form>
+</div>
+    </body>
+</html>
